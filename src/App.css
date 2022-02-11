@@ -1,0 +1,2812 @@
+@import "react-image-gallery/styles/css/image-gallery.css";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+h1,h2,h3{
+    color: #2e3659;
+}
+hr{
+    color: skyblue;
+}
+a{
+    text-decoration: none;
+}
+.slick-dots{
+    display: none !important;
+}
+.setline{
+    /* border-bottom: 2px solid #ec111a; */
+    color: #000;
+    /* padding-top: 1rem; */
+    
+}
+.pstyle{
+    line-height: 31px;
+    /* margin-top: 24px; */
+    font-weight: 500;
+    color: #2e3659;
+    font-size: 14px;
+}
+
+.btn4{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+}
+.btn1:hover{
+    background-color: #0d6efd;
+    border: #0d6efd;
+    width: 131.14px;
+    height: 48px;
+}
+.btn11{
+    padding: 9px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    line-height: 31px;
+    border: 2px solid #0d6efd;
+}
+.btn11:hover{
+    background-color: #b02a37;
+    border: #b02a37;
+    width: 148.3px;
+    height: 52.95px;
+}
+.btn3:hover{
+    background-color: #0d6efd;
+    border: #0d6efd;
+    width: 144.32px;
+    height: 46.97px;
+}
+.btn4:hover{
+    background-color: #b02a37;
+    border: #b02a37;
+    width: 144.33px;
+    height: 47px;
+}
+.btn5:hover{
+    background-color: #b02a37;
+    border: #b02a37;
+    width: 127.1px;
+    height: 40.99px;
+}
+.btn6:hover{
+    background-color: #b02a37;
+    border: #b02a37;
+    width: 144.33px;
+    height: 47px;
+}
+.btn7:hover{
+    background-color: #b02a37;
+    border: #b02a37;
+    width: 132px;
+    height: 46.96px;
+}
+.btn8:hover{
+    background-color: #0d6efd;
+    border: #0d6efd;
+    width: 132px;
+    height: 46.96px;
+    color: #fff;
+}
+.btnspace:hover{
+    background-color: #b02a37;
+    border: #b02a37;
+    width: 132px;
+    height: 46.96px;
+    color: #fff;
+}
+.text{
+    width: 100%;
+    height: 33rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../public/images/2.png");
+    
+}
+/* .round{
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: grey;
+} */
+.pline{
+    /* padding-left: 1rem; */
+    background-image: url(../public/images/5.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 1rem;
+    font-size: 21px;
+    font-weight: 900;
+    color: #2e3659;
+ 
+}
+.h1style{
+    font-weight: bold;
+    color: #2e3659;
+    font-size: 40px;
+    line-height: 46px;
+}
+.h5style{
+    font-size: 21px;
+    font-weight: 900;
+    color: #2e3659;
+}
+.setbgcl{
+    background-image: url("../public/images/download.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn1{
+    margin-right: 7px;
+}
+.setelement{
+    display: flex;
+    padding-bottom: 38px;
+    padding-left: 25px;
+}
+.socialic{
+    padding: 30px;
+    text-align: center;
+    margin: 98px 0 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.socialic i{
+    width: 65px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.psetcol{
+    padding-left: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+.psetcol p{
+    font-size: 18px;
+    margin-bottom: 0rem;
+    line-height: 35px;
+}
+.psetcol span{
+    font-size: 23px;
+}
+.bgimgc{
+    background-color: #0075be;
+    padding: 58px 0 20px;
+}
+.bgped{
+    background-color: #f4f4f4;
+    padding: 100px 0;
+}
+/* .setcilent h1{
+    font-size: 48px;
+} */
+.btn1 span{
+    font-size: 12px;
+}
+.btn2 span {
+    font-size: 12px;
+}
+.top{
+    margin-top: 3rem;
+}
+.h2style{
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 19px;
+    text-transform: capitalize;
+}
+.btn9{
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+.top3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../public/images/29.png);
+    margin-top: 4rem;
+}
+.bgsett{
+    padding: 30px;
+    background-color: #fff;
+}
+.pcontac{
+    color: #001d23;
+    font-size: 40px;
+    font-weight: 900;
+}
+.inputst{
+  border: none;
+  background: #f4f4f4;
+  height: 50px;
+  font-size: 17px;
+  margin-bottom: 1.5rem;
+}
+.inputst1{
+    border: none;
+    background: #f4f4f4;
+    height: 50px;
+    font-size: 17px;
+    width: 100%;
+  margin-bottom: 1.5rem;
+
+  }
+  .inputst2{
+    border: none;
+    background: #f4f4f4;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+  }
+  .btn12{
+    background-color: #ec111a;
+    color: #fff;
+    /* margin-top: 10px; */
+    border-radius: 6px;
+    padding: 9px 26px;
+    font-weight: 600;
+    outline: none;
+    font-size: 20px;
+  }
+  .form-control{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    
+  }
+  .Loginpd{
+    padding: 29px;
+  }
+/* .imggset{
+    width: 100%;
+} */
+.top3 h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+.pcenter{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #494f65;
+}
+
+.div4{
+    background-image:url("../public/images/artifical-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* margin-top: 2rem; */
+    padding-bottom: 5rem;
+    /* opacity: 1; */
+}
+
+.desing ul li::before {
+    content: "\2022";
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.3em;
+    font-size: 24px;
+  }
+  .licolor{
+      font-weight: bold;
+      color: #000;
+  }
+  .desing ul li{
+      list-style: none;
+  }
+.div4 p{
+    font-size: 19px;
+    color: #fff;
+}
+.div4 h2{
+    font-weight: bold;
+    color: #fff;
+    padding-top: 5rem;
+}
+.h2respon{
+    font-size: 55px;
+}
+.btn3{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+}
+.cardsize{
+    width: 15rem;
+}
+.Cradspace{
+    padding-bottom: 2rem;
+}
+.cardh1{
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}
+.checked{
+    color: orange;
+}
+.div5{
+    background-image: url(../public/images/group6.png);
+    margin-top: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div5 img{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.spacecr{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* .textcolor,h2,p,li {
+    color: #fff;
+} */
+.textcolor h2{
+    font-weight: bold;
+    color: #fff;
+}
+.textcolor p{
+    color: #fff;
+    font-size: 14px;
+}
+.textcolor li{
+    color: white;
+    font-size: 13px;
+}
+.textcolor{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* .textcolor,p,li{
+    font-size: 10px;
+} */
+.desing{
+    margin-top: 4rem;
+}
+.desing h1{
+    color: rgb(30, 30, 75);
+    font-weight: bold;
+}
+/* .Img1{
+    width: 100%;
+    padding-top: 2rem;
+} */
+.Img2{
+    width: 100%;
+    /* padding-left: 5rem; */
+}
+.Img4{
+    width: 100%;
+}
+.textcolor h2{
+    line-height: 1.5;
+}
+.textcolor p{
+    line-height: 2;
+}
+.textcolor ul li{
+    line-height: 2;
+    
+}
+.createline h1{
+    line-height: 46px;
+    color: #2e3659;
+}
+.createline p{
+    line-height: 30px;
+    /* margin-right: 6rem; */
+}
+.btn6{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+}
+.btn7{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+}
+.btn8{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+}
+.btnspace{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+}
+.btn1{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+}
+.btn2{
+    padding: 8px 26px;
+    border: none;
+    /* margin-top: 30px; */
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+    border: 2px solid #0075be;
+}
+
+.setdetails{
+    background-image: url(../public/images/group9.png);
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.setcilent{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    /* cursor: pointer; */
+}
+
+.setcilent h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.setcilent p{
+    color: #000;
+
+    font-size: 15px;
+}
+.setpra{
+    padding-left: 3rem;
+}
+.setcilent img{
+    width: 100%;
+}
+.setcilent h3{
+    font-weight: bold;
+    font-size: 14px;
+}
+.setcilent h6{
+    font-size: 10px;
+    font-weight: bold;
+}
+.iconsetg{
+    float: left;
+    margin-left: 9rem;
+    margin-top: -4.5rem;
+    font-size: 1.3rem;
+    color: #495057;
+
+}
+.setblog{
+ 
+    background-image: url(../public/images/group9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    /* padding-bottom: 3rem; */
+}
+.setblog Link{
+    margin-bottom: 3rem;
+}
+.setfooter{
+    padding-top: 3rem;
+}
+.setfooter h2{
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.setfooter ul li {
+    list-style: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+.setfooter ul{
+    padding-left: 0rem;
+}
+.setfooter p{
+    text-align: center;
+}
+.btnspace{
+    margin-bottom: 3rem;
+}
+.footeredit{
+    background-color: rgb(194, 192, 192);
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    font-size: 16px;
+    color: #212529;
+}
+.setfooter ul li{
+    line-height: 3;
+    font-weight: bold;
+    font-size: 12px;
+}
+.logodesign{
+    background-color: rgb(48, 113, 156);
+    height: 7rem;
+    width: 8rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 1.5rem;
+    color: #fff;
+}
+.div8{
+   background-image: url(../public/images/30.png);
+    padding-bottom: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div8 h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.pdesign p{
+    text-align: center;
+    padding-top: 1rem;
+}
+.logodesign img{
+    justify-content: center;
+    text-align: center;
+}
+.navbarbg{
+    background-image: url(../public/images/26.png);
+    
+}
+.setline1{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.imgres{
+    width: 100%;
+}
+.setblog span{
+    color: grey;
+}
+.setblog p{
+    font-weight: bold;
+}
+.linespa{
+    line-height: 2;
+}
+.itagc{
+    color: rgb(3, 130, 180);
+    font-size: 1rem;
+    padding-right: 5px;
+}
+.listyle li{
+    text-transform: capitalize;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #2e3659;
+    padding: 5px 0;
+    
+}
+
+.listyle{
+    line-height: 2;
+}
+.bgimg{
+    background-image: url(../public/images/12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.desitext{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.desitext p{
+    font-weight: 900;
+}
+.heartset{
+    background-color: skyblue;
+    color: rgb(15, 110, 148);
+    border-radius: 50%;
+    width: 22px;
+    height: 23px;
+    margin-top: 4px;
+}
+.heartset i{
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    font-size: 11px;
+}
+.blue{
+    color: #0075be;
+}
+.btn5{
+    padding: 10px 26px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #0075be;
+    border: none;
+    border-radius: 5px;
+}
+
+.settext{
+    display: flex;
+    justify-content: space-between;
+}
+.spacei{
+    padding-right: 5px;
+}
+.pset{
+    display: flex;
+    justify-content: space-between;
+}
+.colordiv{
+   
+    background-color: #fff;
+    padding-left: 6px;
+    padding-right: 3px;
+}
+.pset span{
+    font-weight: 900;
+}
+.spacep{
+    padding-bottom: 3rem;
+}
+.colordiv button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.mobiler{
+    /* padding-left: 3rem; */
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(0,0,0,.55) !important;
+}
+.userde{
+    padding-right: 10px;
+    /* padding-left: 3rem; */
+}
+.imgtext p{
+    font-size: 12px;
+}
+.imgtext{
+    padding-top: 9rem;
+    padding-left: 1rem;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: -1rem;
+    padding-bottom: 9px;
+}
+.setpra{
+   line-height: 2;
+}
+.bgimg button{
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.imgtext span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.bg-white{
+    background-color: #fff;
+    padding: 15px;
+}
+.listyle li a span{
+    color: rgba(0,0,0,.9) !important;
+}
+.setspace{
+    padding-top: 1.5rem;
+}
+.setspace p{
+    line-height: 2;
+}
+.hovcolor:hover{
+    border-bottom: 2px solid #ec111a;
+    color: #ec111a !important;
+    width: 64.32px;
+    height: 40.97px;
+}
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: end;
+}
+.hovcolor1:hover{
+    border-bottom: 2px solid #ec111a;
+    color: #ec111a !important;
+    width: 89.69px;
+    height: 40.98px;
+}
+.hovcolor2:hover{
+    border-bottom: 2px solid #ec111a;
+    color: #ec111a !important;
+    width: 61.3px;
+    height: 40.97px;
+}
+.hovcolor3:hover{
+    border-bottom: 2px solid #ec111a;
+    color: #ec111a !important;
+    width: 103.73px;
+    height: 40.98px;
+}
+.hovcolor4:hover{
+    border-bottom: 2px solid #ec111a;
+    color: #ec111a !important;
+    width: 108.81px;
+    height: 41.46px;
+}
+.Propertisebtn:hover{
+    background-color: #ec111a;
+    border: 1px solid #ec111a;
+    width: 253.52px;
+    height: 54.45px;
+   
+}
+.hovcolor5:hover{
+    border-bottom: 2px solid #ec111a;
+    color: #ec111a !important;
+    width: 97.77px;
+    height: 40.98px;
+}
+.bgcolora{
+    background-color: #f2f2f0;
+    
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+}
+.bgcolora img{
+    width: 100%;
+
+}
+.abouts h4{
+    font-weight: 900;
+}
+.abouts h1{
+    font-weight: 900;
+}
+.abouts{
+    line-height: 2;
+}
+.setaimg{
+    background-image: url(../public/images/pages-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+.Loginbg{
+    background-color: #f4f4f4;
+}
+.bgcolore{
+    background-image: url("../public/images/Welcome-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 100px 15px;
+    margin: 50px 0;
+    text-align: center;
+}
+.Loginbg1{
+    background-image: url("../public/images/form-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 0;
+    padding: 30px;
+}
+.Formh1{
+    font-size: 40px;
+    line-height: 72.18px;
+    font-weight: bolder;
+}
+.Formp{
+    font-size: 18px;
+}
+.Form{
+    border: 1px solid #e6eef3;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+    outline: none;
+}
+.Loginimg{
+    width: 90%;
+}
+.Loginh1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.Loginh{
+    height: 75px;
+}
+.Formd{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Setforget{
+    color: #7c7c7c;
+    text-decoration: none;
+}
+.Loginp{
+    width: 80%;
+    margin: 50px auto auto;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Frombtn{
+    padding: 10px 20px;
+    background-color: #0075be;
+    width: 100%;
+    outline: none;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.Frompsty{
+    color: #7c7c7c;
+    margin-top: 30px;
+}
+.styleLink{
+    text-decoration: none;
+    color: #0075be;
+    font-weight: 600;
+}
+.Formh3{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #000;
+    margin-top: 30px;
+}
+.Formh3::before{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #b9c6d0;
+    margin: auto 10px;
+}
+.Formh3::after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #b9c6d0;
+    margin: auto 10px;
+}
+.social-btn-wrap {
+    width: 100%;
+    margin-top: 40px;
+}
+.Formtp{
+    color: #000;
+}
+.setaimg h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.setaimg p{
+    font-weight: bold;
+    color: #2e3659;
+    word-spacing: 7px;
+}
+.google-btn{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    width: 100%;
+}
+.google-img{
+    margin: -2px 10px 1px 0;
+}
+.setpimg{
+    background-image: url(../public/images/pages-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.setpimg h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.setpimg p{
+    font-weight: bold;
+    color: #2e3659;
+    word-spacing: 7px;
+
+}
+.setbimg{
+    background-image: url(../public/images/pages-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+.btn12:hover{
+    background-color: #0d6efd;
+    width: 192.47px;
+    height: 50.21px;
+    /* border: 2px solid #0d6efd; */
+    border: none;
+}
+.setbimg h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.setbimg p{
+    font-weight: bold;
+    color: #2e3659;
+    word-spacing: 7px;
+
+}
+.h1styler{
+    font-size: 40px;
+}
+.h1style2{
+    font-size: 40px;
+}
+.h1style1{
+    font-size: 40px;
+}
+.Properbg{
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.Properh1{
+    font-size: 33px;
+    line-height: 30.18px;
+    font-weight: bolder;
+}
+.properp{
+    color: #bababa;
+}
+.propersp{
+    font-weight: bolder;
+}
+.Properbu{
+    padding: 10px 35px;
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+.Propertsect{
+    text-align: center;
+    background-color: #f2f2f0;
+    justify-content: center;
+    border: 1px solid #e7e7e7;
+
+}
+.Propertisebtn{
+    padding: 14px 40px;
+    background-color: #0075be;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    width: 100%;
+}
+.styleprope{
+    font-size: 11px;
+}
+.Propertipen{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Properkli{ 
+    list-style: none;
+    display: flex;
+    padding-left: 0rem;
+}
+
+.Hover_change{
+    width: 100%;
+    border: 1px solid #000;
+    padding: 13px;
+    text-align:center;
+    cursor: pointer;
+}
+.Hover_change:hover{
+     background-color: #0075be;
+    color: #fff;
+    border: 1px solid #0075be;
+    transition: .4s;
+}
+.Hover_changeActive{
+    width: 100%;
+    border: 1px solid #000;
+    padding: 13px;
+    text-align:center;
+    cursor: pointer;
+    background-color: #0075be;
+    color: #fff;
+    border: 1px solid #0075be;
+    transition: .4s;
+}
+.Properth3{
+    color: #2e3659;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 34px;
+}
+.sttyelcard h6 {
+    font-weight: 700;
+    margin-top: 25px;
+    color: #2e3659;
+}
+.Properh6{
+    font-weight: 700;
+    margin-top: 25px;
+}
+.Properinput{
+    padding: 12px 10px;
+    color: #000;
+    font-weight: 600;
+ 
+}
+.Properinput1{
+    padding: 12px 10px;
+    color: #000;
+    font-weight: 600;
+}
+.PropErti{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.PropErti h6{
+    font-weight: bold;
+}
+.createbutton{
+    padding: 8px 25px;
+    background-color: #0075be;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+.spanstylep{
+    font-weight: bold;
+}
+.ProperRang{
+    width: 100%;
+    margin-top: 50px;
+}
+.sttyelcard{
+    width: 55%;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 30px 12px rgb(218 214 214 / 60%);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.stylediv{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setthep{
+    line-height: 30px;
+    font-weight: 500;
+}
+.h1Proper{
+    font-size: 34px;
+    color: #2e3659;
+    line-height: 50px;
+    font-weight: 700;
+}
+.Propertsect p{
+    color: #5c5f5e;
+}
+.Propertsect span{
+    color: #2e3659;
+    font-weight: 700;
+    font-size: 21px;
+}
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+    height: 22px!important;
+    width: 22px!important;
+    border-radius: 50%!important;
+    background: #fff;
+    color: #000;
+    font-weight: 700!important;
+}
+.image-gallery-fullscreen-button{
+    display: none;
+}
+.image-gallery-play-button{
+    display: none;
+}
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+    vertical-align: middle;
+    width: 100%;
+    line-height: 0;
+}
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+    height: 152px;
+}
+
+.image-gallery-thumbnail{
+    width:  150px !important;
+}
+
+.image-gallery-thumbnail, .image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+    border: none!important;
+    padding-right: 5px;
+} 
+.Dash-ul li{
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+    width: 10rem;
+}
+.Dash-ul{
+    padding-left: 1rem;
+    /* padding-right: 3rem; */
+    padding-top: 1rem;
+}
+.Dash-display{
+    background-color: #fff;
+    color: #000;
+}
+.Dash-bg{
+    background-color: #f4f4f4;
+}
+.Dashborad-display{
+    display: flex;
+}
+.Dash-btn{
+    margin-top: 2rem;
+    margin-bottom: 115px;
+    background-color: #0075bd;
+}
+.icon-pad{
+    padding-left: 12px;
+}
+.DashBor-Pad{
+    padding-left: 28px;
+}
+
+.Doucment-bg{
+    text-align: center;
+}
+.Doucment-bg button{
+    background-color: #fff;
+    color: #032439;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 16px 42px;
+}
+.Doucment-bg1{
+    background-color: #fff;
+    padding-top: 2rem;
+}
+.Doucment-bg1 h2{
+    font-weight: bold;
+}
+.Doucment-bg1 h6{
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #596165;
+}
+.Link-tag-color{
+    color: #2287c7;
+    text-decoration: underline;
+    font-size: 19px;
+}
+.Dashboard{
+    background-color: #fff;
+    display: flex;
+    padding: 15px;
+    margin-top: 2rem;
+}
+.DashBoard-h3{
+    padding-left: 18px;
+}
+.Dashboard-bgcolor{
+    background-color: #fff;
+    margin-top: 2rem;
+    padding: 30px;
+    margin-bottom: 2rem;
+}
+.Property-bg{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 14px 18px;
+}
+.PRopertyD-bg{
+    background-color: #fff;
+    padding: 10px 35px;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.PRopertyD-bg ul{
+    list-style: none;
+    margin-bottom: 0rem;
+}
+.PRopertyD-bg ul li{
+   padding: 12px 21px;
+   border-radius: 20px;
+   font-weight: 400;
+   color: #000;
+}
+.Property-Detail-bg{
+    background-color: #fff;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.Property-Detail-bg ul{
+    list-style: none;
+    text-align: center;
+}
+.Property-Detail-bg ul li{
+    font-weight: 600;
+    text-align: center;
+}
+.Property-Detail-bg span{
+    font-weight: bold;
+}
+.Property-Detail-bg button{
+    background-color: #0075be;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 10px;
+}
+.Property-Hr{
+    border-bottom: 1px solid #ebebeb;
+    padding: 23px 15px;
+}
+.Property-Set ul{
+    padding-left: 0rem;
+}
+.PRopertyD-bg ul li:hover{
+    color: #fff;
+    background-color: #ec111a;
+}
+.Dash-h3-board{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.Dash_Link{
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+.Dash_p{
+    text-align: center;
+}
+.Dash_h2{
+    color: #000;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Dash_span{
+    text-align: center;
+    display: block;
+    padding-top: 2rem;
+}
+.colorDash{
+    font-weight: bold;
+}
+.Dash_p_color{
+    font-size: 13px;
+    font-weight: 900;
+    text-align: center;
+}
+.Property-Set{
+    margin-top: 1rem;
+    margin-left: 30px;
+}
+.Dash_li{
+    color: #000;
+    font-weight: bold;
+    padding: 16px 20px;
+}
+.Dash_liActive{
+    color: #000;
+    font-weight: bold;
+    padding: 16px 20px;
+    color: #ec111a;
+    background-color: #ffe9eb;
+    border-radius: 5px;
+    border-right: 2px solid #ec111a;
+}
+.Dash_li:hover{
+    color: #ec111a;
+    background-color: #ffe9eb;
+    border-radius: 5px;
+    border-right: 2px solid #ec111a;
+}
+.Dash_btn_space{
+    margin-right: 4px;
+}
+.Dash_responsive{
+    text-align: center;
+    
+}
+.PaymentIng-bg{
+    background-color: #fff;
+    padding: 10px 11px;
+}
+.PaymentIng-bg h3{
+    color: #000;
+    font-size: 20px;
+    padding-top: 13px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+.PaymentIng-bg p{
+    font-weight: 600;
+    padding-top: 1rem;
+    color: #000;
+    font-size: 14px;
+}
+.PaymentLink{
+    border-radius: 15px;
+    padding: 10px 26px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    background-color: #0075bd;
+}
+.PaymentIng-bg img{
+    width: 100%;
+}
+.PaymentIng-bg1{
+    background-color: #fff;
+    margin-left: 3rem;
+    padding: 15px 20px;
+}
+.PaymentIng-bg  div{
+    color: #838592;
+}
+.PaymentIng-bg1 h2{
+    font-weight: bold;
+    color: #000;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.PaymentIng-bg1 p{
+    color: #838592;
+    font-weight: 600;
+}
+.setPayment-bgcolor{
+    background-color: #f1f1ef;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.setPayment-bgcolor1{
+    background-color: #f1f1ef;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 20px 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.setPayment-bgcolor2{
+    background-color: #f1f1ef;
+    padding: 10px 20px;
+}
+.setPayment-bgcolor2 input{
+    background-color: #f1f1ef;
+    outline: none;
+    border: none;
+}
+.PayInfor-btn{
+    color: #fff;
+    background-color: #ed2b33;
+    padding: 13px 37px;
+    border-radius: 10px;
+    font-weight: 800;
+    
+}
+.Payment-info-p{
+    margin-top: 10px;
+    color: #448d24 !important;
+    font-size: 13px;
+}
+.Payment-info-btn{
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 11px 48px;
+    background-color: #0075bd;
+}
+.setPayment-bgcolor1 span{
+    color: #0075be;
+    font-weight: bold;
+    font-size: 20px;
+}
+.PaymentIng-bg1{
+    background-color: #fff;
+}
+.Dash_space{
+    padding-right: 10px;
+}
+.DashSbtn{
+    border-radius: 8px;
+    padding: 12px 35px;
+    margin-bottom: 0rem;
+    color: #000;
+    font-weight: 800;
+}
+.DashSbtn:hover{
+    color: #fff;
+    background-color: red;
+}
+.DashWhite-bg{
+    background-color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    padding: 5px;
+}
+.Informating-bg{
+    background-color: #f1f1ef;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.DashWhite-bg1{
+    background-color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    padding: 18px;
+}
+.bbg-inform h1{
+    font-weight: bold;
+    font-size: 49px;
+    padding-bottom: 1.5rem;
+}
+.bbg-inform button{
+    border-radius: 10px;
+    padding: 10px 35px;
+    margin-top: 1.5rem;
+}
+.bbg-inform{
+    background-color: #fff;
+    text-align: center;
+    padding: 200px;
+}
+.DashWhite-bg1 h3{
+    color: #000;
+    font-weight: bold;
+}
+.DAshLink{
+    padding-top: 2rem;
+}
+.DAshLink1{
+    color: #000;
+    font-weight: bold;
+}
+.DashSDesign{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 24px;
+    margin-right: 1rem;
+}
+.DashSDesign span{
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+}
+.DashS_space{
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+.MArgin-Side{
+    margin-left: 30px;
+}
+.Dash_p-style{
+    text-align: center;
+    padding: 52px;
+}
+.Dash-Board-Just{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 14px;
+    font-size: 15px;
+    margin-top: 2rem;
+}
+.Dash-Board-Just h6{
+    background-color: #dbf1ff;
+    color: #0075be;
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px 5px;
+}
+.Dash-Board-Just2{
+    display: flex;
+    justify-content: space-between;
+}
+.Dash-Board-Just2 p{
+    color: #000;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Dash-Board-Just3{
+    background-color: #fff;
+    padding: 15px 15px;
+    margin-bottom: 2rem;
+}
+.Dash-Board-Just h3{
+    font-weight: 700;
+    font-size: 22px;
+    color: #2287c7;
+}
+
+.set-width{
+    font-weight: 800;
+    color: #000;
+    /* padding-right: 1rem; */
+    font-size: 12px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    width: 100px;
+}
+.set-width1{
+    font-weight: 800;
+    color: #000;
+    /* padding-right: 1rem; */
+    font-size: 12px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    width: 146px;
+}
+.set_width-p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.set-width_button{
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+.Dash-Board_bg{
+    background-color: #fff;
+    padding: 15px 15px;
+    margin-bottom: 2rem;
+}
+.Dash-Board_bg h2{
+    font-weight: 700;
+    font-size: 22px;
+    color: #2287c7;
+    padding-bottom: 1rem;
+}
+.Dash-Board_bg span{
+    font-weight: 700;
+    color: #000;
+    font-size: 13px;
+    padding-right: 1rem;
+}
+.Dash-Board_bg p{
+    font-size: 11px;
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.Dash-Four-bg{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.Dash-Four-bg p:hover{
+    background-color: #ed2b33;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Dash-Four-bgm{
+    margin-left: 30px;
+}
+.create-margin{
+    margin-left: 30px;
+}
+.Dash-Four-bg p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 15px;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+.Dash-Four-bg button{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+    border-radius: 20px;
+    padding: 10px 35px;
+}
+.Dash-Four-bg1{
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 15px 15px;
+    margin-bottom: 2rem;
+}
+.check-color{
+    color: green;
+    padding-left: 1rem;
+}
+.bg-color-style{
+    background-color: #f4f4f4;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding: 18px 14px;
+}
+.bg-color-style p{
+    color: #3c4c64;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 0rem;
+}
+.change-pencil{
+    color: #fff;
+    background-color: #0075bd;
+    border-radius: 5px;
+    padding: 8px 7px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.change-plus{
+    color: #fff;
+    background-color: #0075bd;
+    border-radius: 5px;
+    padding: 8px 7px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.Dash-Four-btn{
+    background-color: #0075bd;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.Dash-board-Five-bg{
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 15px 15px;
+    margin-bottom: 2rem;
+}
+.Dash-board-Five-bg1{
+    margin-left: 30px;
+}
+.Dash-Five-Input{
+    border: none;
+    background: #f4f4f4;
+    height: 50px;
+    font-size: 17px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.Dash-Five-Input:focus{
+    outline: none;
+}
+.Payment-bg{
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+.Payment-bg1 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    padding-right: 5rem;
+}
+.Payment-bg1 span{
+    color: #bababa;
+    font-weight: 800;
+    font-size: 20px;
+}
+.Payment-p{
+    color: #bababa;
+    font-weight: 600;
+}
+.Payment-span-p span{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+.Payment-span-p p{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+.Payment-btn{
+    border-radius: 20px;
+    margin-right: 2rem;
+    padding: 10px;
+    margin-top: 1.5rem;
+}
+.Payment-btn1{
+    border-radius: 20px;
+    margin-right: 2rem;
+    padding: 10px 56px;
+    margin-top: 1.5rem;
+
+}
+.PRoperty-flex{
+    display: flex;
+}
+.Payment-bg h1{
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.Dash-Five-Input option{
+    background: #f4f4f4;
+    font-weight: 100;
+}
+.Dash-Five-h2{
+    font-size: 23px;
+    font-weight: 800;
+    color: #2e3659;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.Dash-Five-btn{
+    border-radius: 10px;
+    padding: 10px 53px;
+    margin-right: 1rem;
+
+    font-weight: 800;
+}
+.Document-bg{
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-color: #0075bd;
+    background-image: url("../public/images/ldc-template.png");
+    background-position: 53% -23%;
+}
+.Doucment-bg p{
+    padding-top: 14rem;
+    font-weight: 600;
+    font-size: 31px;
+    color: #fff;
+}
+.Doucment-bg button{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+.Doucment-bg1 p{
+    padding-right: 34rem;
+}
+.DashWhite-bg1 p{
+    font-weight: 600;
+}
+.margin-left_set{
+    margin-left: -13px;
+}
+@media screen and (max-width:991px) {
+    .h2respon {
+        font-size: 35px;
+    }
+    .DashSbtn {
+        padding: 9px 5px !important;
+    }
+    .Doucment-bg1 p{
+        padding-right: 0rem;
+    }
+    .Doucment-bg p{
+        font-size: 22px;
+    }
+    .PRopertyD-bg{
+        padding: 9px 16px;
+    }
+    .PaymentIng-bg1 h2{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .PaymentIng-bg div{
+        font-size: 11px;
+    }
+    .PaymentIng-bg p{
+        padding-top: 5px;
+    }
+    .PaymentLink{
+        padding: 7px 14px;
+    }
+    .setPayment-bgcolor1{
+        padding: 18px 11px;
+    }
+    .setPayment-bgcolor1 span{
+        font-size: 15px;
+    }
+    .PaymentIng-bg1 p{
+        font-size: 15px;
+    }
+    .PayInfor-btn{
+        padding: 7px 14px;
+    }
+    .Payment-info-btn{
+        padding: 7px 38px;
+    }
+    .bbg-inform h1{
+        font-size: 41px;
+    }
+    .bbg-inform{
+        padding: 145px;
+    }
+    .Dash-Four-bg p{
+        font-size: 9px !important;
+    }
+    .userde{
+        padding-left: 0rem;
+    }
+    .navbar-collapse{
+        margin-top: 1rem;
+    }
+    .Formd{
+        display: block;
+    }
+     .h1style1{
+         font-size: 25px;
+     }
+    .logodesign{
+        width: 6rem;
+    }
+    .mobiler{
+        padding-left: 0rem !important;
+    }
+    .h1style2 {
+        font-size: 32px;
+    }
+    .Dash-Board-Just3 span{
+        font-size: 11px;
+    }
+    .Dash-Board-Just3 p{
+        font-size: 10px;
+    }
+    .Dash-Board_bg span{
+        font-size: 11px;
+    }
+    .Dash-Board_bg p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:500px) {
+    .pline{
+        background: none;
+        padding-left: 0rem;
+    }
+    .MArgin-Side{
+        margin-left: 0px;
+    }
+    .Dash-Four-bgm{
+        margin-left: 0px;
+    }
+    .Dash-board-Five-bg1{
+        margin-left: 0px;
+    }
+    .Property-Set{
+        margin-left: 0px;
+    }
+    .create-margin{
+        margin-left: 0px;
+    }
+    .imggset{
+        width: 100%;
+    }
+    .Dash-btn{
+        margin-bottom: 30px;
+        margin-top: 1rem;
+    }
+    .Dash-Board-Just{
+        margin-top: 0rem;
+    }
+    .Dash-ul li{
+        margin-top: 10px;
+    }
+    .image-gallery-thumbnail .image-gallery-thumbnail-image {
+        height: 110px !important;
+    }
+    .setpra{
+        padding-top: 2rem;
+    }
+    .setcilent img{
+        padding-left: 2rem;
+    }
+    .iconsetg{
+        display: none;
+    }
+    .linespa a{
+        margin-bottom: 1rem;
+    }
+    .respgap{
+        padding-bottom: 1rem;
+    }
+    .h1style{
+        font-size: 25px;
+    }
+    .pline{
+        font-size: 14px;
+    }
+    .h2style{
+        font-size: 28px;
+    }
+    .h1style{
+        line-height: 34px;
+    }
+    .h2style{
+        line-height: 34px;
+        margin-bottom: 9px;
+    }
+    .h5style{
+        padding-top: 2rem;
+    }
+    .pstyle {
+        line-height: 23px;
+    }
+    .createline p {
+        line-height: 23px;
+    }
+    .DashBor-Pad{
+        padding-left: 0px;
+    }
+    .Dashborad-display{
+        display: block;
+    }
+}
+@media screen and (max-width:600px) {
+    .Loginpd{
+        padding: 15px;
+    }
+    .Properkli li{
+        font-size: 13px;
+    }
+    .bgcolore{
+        margin: 0px;
+    }
+    .iconsetg{
+        display: none;
+    }
+    .Loginbg1{
+        padding: 20px;
+    }
+    .Formh1{
+        line-height: 35px;
+    }
+    .linespa{
+        padding-bottom: 1rem;
+    }
+    .setaimg h1{
+        font-size: 3rem;
+    }
+    .Loginbg1{
+        margin: 0px;
+    }
+    .bgcolore{
+        padding: 26px 0px 49px 0px;
+    }
+    .setaimg{
+        padding-top: 5rem;
+    padding-bottom: 6rem;
+    }
+    .setpimg{
+        padding-top: 5rem;
+    padding-bottom: 6rem;
+    }
+    .setbimg{
+        padding-top: 5rem;
+    padding-bottom: 6rem;
+    }
+    .Img2{
+        padding-left: 0rem;
+    }
+}
+@media screen and (max-width:1280px){
+    .setblog p{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:912px) {
+    .iconsetg{
+        display: none;
+    }
+    .sttyelcard {
+        width: 65%;
+    }
+    .abouts h1{
+        font-size: 31px;
+    }
+    .setblog p {
+        font-size: 15px;
+    }
+    .h2style{
+        font-size: 27px;
+    }
+    .resicon{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1280px) {
+    .iconsetg{
+        margin-left: 9rem;
+    }
+    .image-gallery-slide .image-gallery-image {
+        object-fit: cover;
+    }
+    .image-gallery-thumbnail{
+        width: 182px !important;
+    }
+}
+@media screen and (max-width:280px) {
+    .setline1 p{
+        font-size: 9.setline1 ppx;
+    }
+    .Proper-h4 {
+        font-size: 11px !important;
+    }
+    .h2respon {
+        font-size: 15px !important;
+    }
+    .h2style {
+        font-size: 19px !important;
+    }
+    .div4 p {
+        font-size: 10px !important;
+    }
+    .abouts h4{
+        font-size: 19px;
+    }
+    .abouts p{
+        font-size: 12px;
+    }
+    .setcilent h1 {
+        font-size: 20px !important;
+    }
+    .h1styler{
+        font-size: 18px;
+    }
+    .h1style1{
+        font-size: 17px !important;
+    }
+    .textcolor h2 {
+        font-size: 21px;
+    }
+    .cardh1{
+        font-size: 20px;
+    }
+    .h5style{
+          font-size: 18px;
+    }
+    .licolor li {
+        font-size: 9px !important;
+    }
+    .setline1 p {
+        font-size: 9px !important;
+    }
+    .h2style {
+        line-height: 26px;
+    }
+    .pcenter{
+        font-size: 12px;
+    }
+    .createline p {
+        line-height: 21px;
+    }
+    .licolor {
+        line-height: 0.7 !important;
+    }
+    .createline p {
+        line-height: 21px !important;
+    }
+    .createline h1 {
+        line-height: 26px !important;
+    }
+    .setspace p{
+        line-height: 18px;
+    }
+    .textcolor h2{
+        line-height: 28px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .setbgcl{
+        background-image: none;
+    }
+    .check-color{
+        padding-left: 0px;
+    }
+    .Img1{
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .Property-Hr{
+        display: none !important;
+    }
+    .PRoperty-flex{
+        display: block;
+    }
+    .ul-respo{
+        display: block !important;
+    }
+    .PaymentIng-bg1{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+    .PayInfor-btn{
+        margin-top: 10px;
+    }
+    .bbg-inform h1{
+        padding-bottom: 0rem;
+    }
+    .bbg-inform button{
+        margin-top: 0rem;
+    }
+    .bbg-inform{
+        padding: 118px !important;
+    }
+    .bbg-inform h1{
+        font-size: 34px;
+    }
+    .Dash-Five-btn{
+        margin-bottom: 1rem;
+    }
+    .change-pencil{
+        margin-right: 4px;
+    }
+    .Dash-Four-bg button{
+        margin-bottom: 1rem;
+    }
+    .Dash-Four-bg p{
+        font-size: 15px !important;
+    }
+    .DashSDesign{
+        margin-bottom: 1rem;
+    }
+    .DashWhite-bg{
+        padding-top: 1rem;
+    }
+    .DashWhite-bg1{
+        margin-top: 0rem;
+    }
+    .DashSbtn{
+        margin-left: 2rem;
+    }
+    .Dash-display{
+        display: block !important;
+    }
+    .Properbu{
+        margin-top: 15px;
+    margin-bottom: 25px;
+    }
+    .properp{
+        margin-bottom: 0rem;
+    }
+    .Proper-p{
+        font-size: 14px;
+    }
+    .Properbg{
+        padding-top: 24px;
+    }
+    .image-gallery-slide .image-gallery-image {
+        object-fit: cover;
+    }
+    .Properh1 {
+        padding-top: 2rem;
+    }
+    .my-5{
+        margin-top: 1rem !important;
+        margin-bottom: 0rem !important;
+    }
+    .styleprope {
+        padding-top: 2rem;
+    }
+    .h1Proper{
+        font-size: 29px;
+        line-height: 28px;
+
+    }
+    .google-btn{
+        width: 100%;
+    }
+    .h2respon {
+        font-size: 26px;
+    }
+    .abouts h4{
+        padding-top: 2rem;
+    }
+    .text{
+        height: 31rem;
+    }
+    .pstyle{
+        font-size: 12px;
+    }
+    .settext{
+        font-size: 12px;
+    }
+    .pset{
+        font-size: 12px;
+    }
+
+    .setpra{
+        padding-left: 0rem;
+    }
+    .setcilent img{
+        padding-left: 0rem;
+    }
+    .bgped{
+        background-color: #fff;
+    }
+    .createline h1{
+        line-height: 30px;
+    }
+    .h1style1{
+        padding-top: 3rem;
+    }
+    .licolor{
+        line-height: 1;
+    }
+    .createline p {
+        line-height: 23px;
+    }
+    #formSec {
+        order: 1;
+    }
+    .Loginpd {
+        padding: 0px;
+    }
+    #formfir{
+        order: 2;
+    }
+    .bgped{
+        padding: 0px;
+    }
+    .image-gallery-thumbnail .image-gallery-thumbnail-image {
+        height: 134px;
+    }
+    .Dash_span{
+     padding-top: 10px;
+    }
+    .Dash-Board-Just2 p{
+        font-size: 10px;
+        padding-bottom: 0rem;
+    }
+    .Dash-Board-Just h3{
+        font-size: 15px;
+    }
+    .Dash-Board-Just h6{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:320px) {
+    .btn2{
+        padding: 4px 4px;
+    }
+    .Doucment-bg p {
+        font-size: 14px !important;
+    }
+    .Document-bg{
+        background-position: 27% -23%;
+    }
+    .Doucment-bg button{
+        padding: 14px 35px;
+    }
+    .bbg-inform h1 {
+        font-size: 22px !important;
+    }
+    .bbg-inform {
+        padding: 29px !important;
+    }
+    .Payment-span-p span{
+        font-size: 14px;
+    }
+    .Payment-span-p p{
+        font-size: 15px;
+    }
+    .bg-color-style p {
+        font-size: 9px !important;
+    }
+    .change-pencil{
+        padding: 5px 5px;
+    }
+    .change-plus{
+        padding: 5px 5px;
+    }
+    .Properh1 {
+        font-size: 20px !important;
+    }
+    .btn1{
+        padding: 4px 4px;
+    }
+    .h2style{
+        margin-bottom: 0px;
+    }
+    .Properinput {
+        padding: 11px 0px;
+    }
+    .Proper-h4 {
+        font-size: 12px !important;
+    }
+    .Img1{
+        padding-top: 2rem;
+    }
+    .footeredit{
+        font-size: 13px;
+    }
+    .pline{
+        padding-left: 0px;
+        font-size: 12px;
+    }
+    .pcontac{
+        font-size: 20px !important;
+    }
+    .psetcol span {
+        font-size: 11px !important;
+    }
+    .socialic i {
+        width: 54px;
+    }
+    .Loginp {
+        font-size: 11px !important;
+    }
+    .Formh1 {
+        font-size: 20px !important;
+    }
+
+}
+@media screen and (max-width:469px) {
+    .setpimg h1 {
+        font-size: 2rem;
+    }
+    .Payment-span-p{
+        display: block !important;
+        padding-bottom: 1rem;
+    }
+    .sttyelcard {
+        width: 100%;
+    }
+    .Properkli{
+        display: block;
+    }
+    .Properkli li{
+        margin-bottom: 5px;
+    }
+    .setpimg p {
+        font-size: 13px;
+    }
+    .setaimg h1 {
+        font-size: 2rem;
+    }
+    .setaimg p {
+        font-size: 13px;
+    }
+    .setbimg h1 {
+        font-size: 2rem;
+    }
+    .setbimg p {
+        font-size: 13px;
+    }
+    .h2respon {
+        font-size: 20px;
+    }
+    .setline1 p{
+        font-size: 14px;
+    }
+    .Frompsty {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .pcontac{
+        font-size: 30px;
+    }
+    .psetcol span {
+        font-size: 17px;
+    }
+    .setfooter ul li{
+        font-size: 10px;
+    }
+    .Dash-display{
+        display: none;
+    }
+}
+@media screen and (max-width:347px) {
+    .pcontac{
+        font-size: 27px;
+    }
+    .sttyelcard {
+        width: 113%;
+    }
+    .Formh1 {
+        font-size: 23px !important;
+    }
+    .Loginh1 {
+        font-size: 32px !important;
+    }
+    .Loginimg {
+        width: 79%;
+    }
+    .psetcol span {
+        font-size: 12px;
+    }
+    .abouts h1 {
+        font-size: 23px;
+    }
+    .setcilent h1{
+        font-size: 25px;
+    }
+    .h1styler {
+        font-size: 29px !important;
+    }
+    .h1style1 {
+        font-size: 21px;
+    }
+    .h1style2 {
+        font-size: 23px;
+    }
+    .div8 h1{
+        font-size: 20px;
+    }
+    .h2respon {
+        font-size: 18px;
+    }
+    .div4 p{
+        font-size: 12px !important;
+    }
+    .setline1 p{
+        font-size: 10px;
+    }
+  
+}
+@media screen and (max-width:991px) {
+    .iconsetg{
+        display: none;
+    }
+    .Loginh1{
+        font-size: 42px;
+    }
+    .Loginp{
+        font-size: 17px;
+    }
+    .Formh1{
+        font-size: 26px;
+    }
+    .Formp {
+        font-size: 16px;
+    }
+    .Setforget{
+        font-size: 18px;
+    }
+    .Formtp{
+        font-size: 18px;
+    }
+    .Frompsty{
+        font-size: 19px;
+    }
+    .google-btn{
+        font-size:10px;
+        padding: 9px 4px;
+    }
+    .google-img {
+        margin: -2px 6px 1px 0;
+    }
+    .resicon{
+        text-align: center;
+    }
+    .h2style{
+        font-size: 30px;
+    }
+    .licolor li{
+        font-size: 12px;
+    }
+    .createline p{
+        font-size: 12px;
+    }
+    .h1styler{
+        font-size: 35px;
+    }
+    .pstyle{
+        font-size: 11px;
+    }
+    .setspace p{
+        font-size: 14px;
+    }
+    .textcolor h2{
+       font-size: 25px;
+    }
+    .textcolor p{
+        font-size: 12px;
+    }
+    .textcolor li{
+        font-size: 10px;
+    }
+    .setblog p {
+        font-size: 17px;
+    }
+    .div4 p {
+        font-size: 16px;
+    }
+    .Propertisebtn {
+        padding: 12px 10px;
+    }
+}
+@media screen and (max-width:404px) {
+    .Loginp {
+        font-size: 13px;
+    }
+    .set-width1{
+        width: 115px;
+    }
+    .bbg-inform h1{
+        font-size: 25px;
+    }
+    .Doucment-bg p{
+        font-size: 19px !important;
+    }
+    .Payment-bg1 p{
+        font-size: 16px;
+        padding-right: 2rem;
+    }
+    .Payment-bg h1{
+        font-size: 20px;
+    }
+    .Payment-bg1 span{
+        font-size: 16px;
+    }
+    .Dash-Five-h2{
+        font-size: 19px;
+    }
+    .Formh1 {
+        font-size: 28px;
+    }
+    .Loginh1 {
+        font-size: 38px;
+    }
+    .Formtp{
+        margin-bottom: 6px;
+    }
+    .Properh1 {
+        font-size: 25px;
+    }
+    .h1Proper {
+        font-size: 24px;
+    }
+    .Proper-p {
+        font-size: 11px;
+    }
+    .image-gallery-thumbnail .image-gallery-thumbnail-image {
+        height: 83px !important;
+    }
+    
+}
+@media screen and (max-width:640px) {
+    .PropErti{
+        display: block;
+    }
+    .Proper-h4{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .Dash-ul li{
+        font-size: 11px;
+    }
+    .margin-left_set{
+        margin-left: 0px;
+    }
+    .DashWhite-bg1 p{
+        font-size: 13px;
+    }
+    .Dash_p-style{
+        padding: 24px;
+    }
+    .Dash_p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .Dash_Link{
+        font-size: 14px;
+    }
+    .Dash_h2{
+        font-size: 14px;
+    }
+    .set-width{
+        width: 71px;
+        padding-right: 1rem;
+    }
+    .Dash-Board-Just3 span{
+       font-size: 13px;
+    }
+    .DashSbtn{
+        padding: 12px 19px;
+    }
+    .Dash-btn{
+        font-size: 9px;
+    }
+    .Dash-Four-bg p{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .Dash-Four-bg button{
+        padding: 9px 24px;
+    }
+    .DashBoard-h3 p{
+        font-size: 13px;
+    }
+    .DashBoard-h3 {
+        padding-left: 11px;
+    }
+    .Dash_responsive button{
+        margin-bottom: 10px;
+    }
+    .Dash-ul{
+        padding-right: 0rem;
+        /* margin-right: 3rem; */
+    }
+    .Dash_li{
+        width: 8rem;
+    }
+    .DashSDesign{
+        overflow: hidden;
+    }
+    .Dash-Board-Just3{
+        padding: 15px 10px;
+    }
+    .PRopertyD-bg{
+        font-size: 12px;
+        font-weight: 800;
+    }
+}
+@media screen and (max-width:544px) {
+    .bg-color-style p{
+        font-size: 12px;
+    }
+    .check-color{
+        padding-left: 8px;
+    }
+    .bbg-inform{
+        padding: 49px !important;
+    }
+}

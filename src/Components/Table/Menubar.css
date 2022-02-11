@@ -1,0 +1,87 @@
+.Menubar-ul li{
+    list-style: none;
+     
+    border-bottom: 1px solid rgba(0,0,0,.55);
+    padding: 5px 11px;
+    color: #223869;
+}
+.Menubar-li{
+    display: flex;
+    justify-content: space-between;
+    color: #1b2d52;
+    cursor: pointer;
+    padding: 8px 5px ;
+}
+.Menubar-li:hover{
+    background-color: #e6efd1;
+}
+.Hide-menu p:hover{
+    background-color: #e6efd1;
+}
+.Menubar-set{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #14805e;
+    padding: 5px 11px;
+}
+.Menubar-set p{
+    margin-bottom: 0rem;
+    font-weight: bold;
+}
+.Hide-menu{
+    cursor: pointer;
+    padding-left: 10px;
+    padding: 5px 10px;
+}
+.arrow_space{
+    padding-right: 5px;
+}
+.Menubar-ul{
+    padding-left: 0rem;
+}
+.Greater-Then-style{
+    color: #14805e;
+    /* border: 1px solid #14805e; */
+    border-radius: 3px;
+    background-image: url("../Table/sprite-icon.png");
+    background-position: 65% -1000px;
+    height: 25px;
+    width: 23px;
+    background-repeat: no-repeat;
+    line-height: 25px;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+.back-bg-color{
+    background-color: #fff;
+}
+.Style-Color p{
+    font-weight: bold;
+}
+.Style-Color span{
+    color: red;
+    font-weight: bold;
+}
+.create-border-menu{
+    border-bottom: 1px solid #000;
+}
+.Style-Color_menu p{
+    padding: 5px;
+}
+.Style-Color_menu span{
+    padding: 5px;
+}
+.Style_menu_Heading{
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+    background: #1C282D;
+    border-top-right-radius: 15px;
+    font-size: 12px;
+    width: 30%;
+    padding: 5px 15px;
+    font-size: 13px;
+    margin-top: 1rem;
+}

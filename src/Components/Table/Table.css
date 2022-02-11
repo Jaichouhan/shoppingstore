@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color-p{
+    margin-bottom: 0rem;
+}
+.style-div span{
+    color: red;
+}
+.color-p{
+    font-weight: bold;
+}
+.color-span{
+    font-weight: 600;
+}
+.change-color{
+    background-color: #d7e8f4;
+}
+.change-colo1{
+    background-color: #b7d5eb;
+}
+.change-colo2{
+    background-color: #72bbef;
+}
+.change-colo3{
+    background-color: #faa9ba;
+}
+.change-colo4{
+    background-color: #efd3d9;
+}
+.change-colo5{
+    background-color: #f6e6ea;
+}
+.create-aline{
+    border-bottom: 1px solid #000;
+}
