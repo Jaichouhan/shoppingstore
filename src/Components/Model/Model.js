@@ -13,9 +13,11 @@ const Model = () => {
       <button onClick={onOpenModal}>Open modal</button>
       <Modal open={open} onClose={onCloseModal} center>
         <div className="">
-          <div className="">
-            <h4 className="H1_style_model"> Rolling commisison</h4>
+          <div className="H1_style_model">
+            <h4 className=""> Rolling commisison</h4>
+            <i className="fas fa-times cut-icon"></i>
           </div>
+          <div className="btn_Model">
           <div className="SetThe_Model">
             <p>Fancy</p>
             <span>0</span>
@@ -40,6 +42,7 @@ const Model = () => {
             <p>Bookmarker</p>
             <span>0</span>
           </div>
+        </div>
         </div>
       </Modal>
     </>

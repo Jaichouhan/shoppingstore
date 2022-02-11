@@ -1,18 +1,33 @@
 .SetThe_Model {
   display: flex;
   border: 1px solid #000;
-  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px 10px;
+  /* border-radius: 5px; */
 }
-  .react-responsive-modal-modal {
-    width: 412px;
-    padding: 0px;
-  }
-  .H1_style_model {
-    background-color: #000;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px 0px;
-  }
-.react-responsive-modal-closeButton{
-  color: #fff !important;
+.SetThe_Model p{
+  margin-bottom: 0rem;
+}
+.react-responsive-modal-modal {
+  width: 412px;
+  padding: 0px;
+}
+.H1_style_model {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.cut-icon {
+  align-items: center;
+  font-weight: bold;
+  font-size: 29px;
+}
+.react-responsive-modal-closeButton {
+  display: none;
+}
+.btn_Model {
+  padding: 10px;
 }
