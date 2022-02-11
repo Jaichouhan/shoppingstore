@@ -35,7 +35,7 @@ const Home = () => {
                   <span>GET STARTED</span>
                 </button>
               </Link>
-              <Link to="/Navbar1">
+              <Link to="/Modal">
                 <button type="button" className="btn btn-outline-primary btn2">
                   <span>VIEW PROPERTIES</span>
                 </button>

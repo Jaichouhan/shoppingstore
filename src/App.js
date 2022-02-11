@@ -17,6 +17,7 @@ import PaymentPage from "./Components/PaymentPage";
 import Information from "./Components/Information";
 import PaymentInformation from "./Components/PaymentInformation";
 import Form from "./Components/Form/Form";
+import Modal from "./Components/Model/Model";
 // import Menubar from "./Components/Table/Menubar";
 
 import Document from "./Components/Document";
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="Document" element={<Document />} />
         <Route path="DashboardCard" element={<DashboardCard />} />
         <Route path="Table" element={<Table />} />
+        <Route path="Modal" element={<Modal />} />
         {/* <Route path="Menubar" element={<Menubar />} /> */}
         {/* <Route path="Navbar1" element={<Navbar1 />} /> */}
       </Routes>

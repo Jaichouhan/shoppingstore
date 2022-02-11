@@ -1,0 +1,18 @@
+.SetThe_Model {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+  .react-responsive-modal-modal {
+    width: 412px;
+    padding: 0px;
+  }
+  .H1_style_model {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0px;
+  }
+.react-responsive-modal-closeButton{
+  color: #fff !important;
+}
