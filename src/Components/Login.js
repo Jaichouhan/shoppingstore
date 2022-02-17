@@ -1,24 +1,29 @@
-
+import React, { useState } from "react"
 import {Link} from "react-router-dom"
 import LoginInformation from "./LoginInformation";
 import Social from "./Social";
-const Login = () => {
+const Login = ({error,user}) => {
+  const [details,setdetails] = useState({email:"",password:""})
+  const SubmitForm = () => {
+   user(details)
+  }
     return( <>
        <div className="container-fluid Loginbg">
           <div className="container Loginpd">
          <div className="row">
             <LoginInformation/>
             <div className="col-md-6 Loginbg1">
+            <form onSubmit={SubmitForm}>
                <h1 className="Formh1">Login to Account</h1>
                <p className="Formp">Enter your login data</p>
                <div className="">
                   <div className="row">
                  
                <div className="col-md-12 col-sm-12 Loginh">
-                  <input type="email" className="Form" placeholder="Email or Username"/>
+                  <input type="email" name="email" className="Form" placeholder="Email or Username" onChange={(e) => setdetails({...details,email:e.target.value})} value={details.email}/>
                </div>
                <div className="col-md-12 col-sm-12 Loginh">
-                  <input type="Password" className="Form" placeholder="Password"/>
+                  <input type="Password" name="password" className="Form" placeholder="Password" onChange={(e) => setdetails({...details,password:e.target.value})} value={details.password}/>
                </div>
                    <div className="Formd">
                       <p className="Formtp">
@@ -33,6 +38,7 @@ const Login = () => {
                </Link>
                    <p className="Frompsty">Already have an account? <Link className="styleLink" to="/Resigter">Create Account</Link> </p>
                    <Social />
+            </form>
             </div>
          </div>
          </div>
